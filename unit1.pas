@@ -23,6 +23,7 @@ type
     Label4: TLabel;
     Label5: TLabel;
     Non: TLabel;
+    Nonnn: TLabel;
     Non1: TLabel;
     procedure Edit1Change(Sender: TObject);
     procedure Label1Click(Sender: TObject);
