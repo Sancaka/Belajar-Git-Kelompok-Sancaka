@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  ExtCtrls;
+  ExtCtrls, Menus, Unit2;
 
 type
 
@@ -22,13 +22,13 @@ type
     Label3: TLabel;
     Label4: TLabel;
     Label5: TLabel;
+    MainMenu1: TMainMenu;
+    MenuItem1: TMenuItem;
     Non: TLabel;
     Nonnn: TLabel;
     Non1: TLabel;
-    procedure Edit1Change(Sender: TObject);
-    procedure Label1Click(Sender: TObject);
-
     procedure HitungClick(Sender: TObject);
+    procedure MenuItem1Click(Sender: TObject);
   private
     { private declarations }
   public
@@ -44,16 +44,6 @@ implementation
 
 { TForm1 }
 
-procedure TForm1.Label1Click(Sender: TObject);
-begin
-
-end;
-
-procedure TForm1.Edit1Change(Sender: TObject);
-begin
-
-end;
-
 procedure TForm1.HitungClick(Sender: TObject);
 var r ,K,L,phi : Real  ;
 begin
@@ -66,6 +56,11 @@ begin
   Non.Visible:=True;
   Non1.Visible:=True;
 
+end;
+
+procedure TForm1.MenuItem1Click(Sender: TObject);
+begin
+  Form2.ShowModal;
 end;
 
 end.
