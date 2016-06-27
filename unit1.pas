@@ -22,10 +22,12 @@ type
     Label3: TLabel;
     Label4: TLabel;
     Label5: TLabel;
+    Label6: TLabel;
     Non: TLabel;
     Nonnn: TLabel;
     Non1: TLabel;
     procedure Edit1Change(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
     procedure Label1Click(Sender: TObject);
 
     procedure HitungClick(Sender: TObject);
@@ -53,6 +55,7 @@ procedure TForm1.Edit1Change(Sender: TObject);
 begin
 
 end;
+
 
 procedure TForm1.HitungClick(Sender: TObject);
 var r ,K,L,phi : Real  ;
