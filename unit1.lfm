@@ -142,8 +142,8 @@ object Form1: TForm1
     Left = 23
     Height = 15
     Top = 193
-    Width = 80
-    Caption = 'Selamat Belajar'
+    Width = 187
+    Caption = 'Selamat Belajar dan Semoga Sukses'
     ParentColor = False
   end
 end
