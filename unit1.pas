@@ -13,7 +13,7 @@ type
   { TForm1 }
 
   TForm1 = class(TForm)
-    Edit0: TEdit;
+    Edit0o: TEditt;
     Edit1: TEdit;
     Edit2: TEdit;
     Hitung: TButton;
