@@ -13,15 +13,16 @@ type
   { TForm1 }
 
   TForm1 = class(TForm)
+    Edit0: TEdit;
     Edit1: TEdit;
     Edit2: TEdit;
     Hitung: TButton;
-    Image1: TImage;
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
     Label4: TLabel;
     Label5: TLabel;
+    Label6: TLabel;
     Non: TLabel;
     Non1: TLabel;
     procedure Edit1Change(Sender: TObject);
